@@ -64,6 +64,28 @@ const Camp = () => {
           peopleJoined="81+ joined"
         />
       </div>
+      <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
+        <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
+          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
+            <strong>Feeling Lost?</strong> And not knowing the way?
+          </h2>
+          <p className="regular-14 xl:regular-16 mt-5 text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus eos ad laudantium vero ea at eveniet, dolorem
+            praesentium cumque dolorum esse quaerat aliquam, repudiandae facilis
+            consectetur! Recusandae dicta consequuntur obcaecati consectetur
+            quis laudantium distinctio debitis eveniet sequi doloribus, alias ut
+            incidunt, aliquam maiores magnam.
+          </p>
+          <Image
+            src={"/quote.svg"}
+            alt="camp"
+            width={186}
+            height={219}
+            className="camp-quote"
+          />
+        </div>
+      </div>
     </section>
   );
 };
