@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Travel made easier!",
   description: "Use TravelMate to book your travels faster!",
+  icons: {
+    icon: "/hilink-logo.svg",
+  },
 };
 
 export default function RootLayout({
